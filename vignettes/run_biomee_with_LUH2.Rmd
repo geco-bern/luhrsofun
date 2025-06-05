@@ -143,6 +143,7 @@ Next, we define some convenience functions for displaying plots:
 library(ggplot2)
 library(gridExtra)
 library(purrr)
+library(dplyr)
 
 plot1 <- function(lu_name, variable, out, y_limit=NA, yr_start=1, yr_label_offset=0) {
   tile <- out[[lu_name]][[1]]

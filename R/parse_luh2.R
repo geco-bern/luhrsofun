@@ -13,11 +13,13 @@
 #' @return A list containing the intial states ('states_init') and transition matrix ('luc_matrix')
 #' @export
 #' @importFrom utils head
+#' @importFrom ncdf4 nc_open
+#' @importFrom ncdf4 ncvar_get
+#' @importFrom ncdf4 nc_close
 parse_luh2 <- function(state_file, trans_file, lon, lat, start=1, n=-1, simplified=FALSE){
 
   ### Open the ncdf files
 
-  requireNamespace("ncdf4", quietly = FALSE)
   # State[lon,lat,time]
   nc_state <- ncdf4::nc_open(state_file)
   # Trans[lon,lat,time]
