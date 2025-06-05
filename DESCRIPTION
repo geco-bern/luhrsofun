@@ -20,8 +20,8 @@ Authors@R: c(
             )
 Description: Preprocess LUH2 data for use with LUC-enabled rsofun (BiomeE)
   This package provides `parse_luh2()` that can be used to prepare the
-  LUC arguments to `rsofun::runread_biomee_f`
+  LUC arguments to `rsofun::runread_biomee_f`.
 License: AGPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
