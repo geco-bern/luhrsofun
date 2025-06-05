@@ -10,3 +10,8 @@ utils::download.file(
   destfile = trans_file,
   method = "wget", extra = "--no-check-certificate"
 )
+
+# Then manually run the vignette 'vignettes/run_biomee_with_LUH2.Rmd'
+# to store/update 'data/biomee_p_model_LUH2_drivers.rda' by running the lin
+# usethis::use_data(biomee_p_model_LUH2_drivers, overwrite = TRUE)
+

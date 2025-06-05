@@ -1,0 +1,27 @@
+#' rsofun BiomeE driver data (P-model photosynthesis model) with LULUC based on LUH2
+#'
+#' Example driver data to run the BiomeE-model at the CH-LAE site
+#' using the P-model photosynthesis specification (and daily time step).
+#' It provides an example of land use change (LUC) that was generated based on LUH2 data.
+#' See documentation in rsofun package for further details.
+#'
+#' @format ## `biomee_p_model_LUH2_drivers`
+#' A tibble: 1 × 10
+#' \describe{
+#'   \item{sitename}{see rsofun package for further details}
+#'   \item{site_info}{see rsofun package for further details}
+#'   \item{params_siml}{see rsofun package for further details}
+#'   \item{params_tile}{see rsofun package for further details}
+#'   \item{params_species}{see rsofun package for further details}
+#'   \item{init_cohort}{see rsofun package for further details}
+#'   \item{init_soil}{see rsofun package for further details}
+#'   \item{forcing}{see rsofun package for further details}
+#'   \item{init_lu}{see rsofun package for further details}
+#'   \item{luc_forcing}{see rsofun package for further details}
+#' }
+#' @source Hurtt, G. C., Chini, L., Sahajpal, R., Frolking, S., Bodirsky, B. L., Calvin, K., Doelman, J., Fisk, J., Fujimori, S., Goldewijk, K. K., Hasegawa, T., Havlik, P., Heinimann, A., Humpenöder, F., Jungclaus, J., Kaplan, J., Krisztin, T., Lawrence, D., Lawrence, P., Mertz, O., Pongratz, J., Popp, A., Riahi, K., Shevliakova, E., Stehfest, E., Thornton, P., van Vuuren, D., Zhang, X. (2019).
+#' Harmonization of Global Land Use Change and Management for the Period 2015-2300. Version 20190529. Earth System Grid Federation.
+#' Dataset. https://doi.org/10.22033/ESGF/input4MIPs.10468
+
+"biomee_p_model_LUH2_drivers"
+
