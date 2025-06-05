@@ -1,4 +1,8 @@
 template:
   package: gecotemplate
   params:
-    mathjax: true
+   mathjax: true
+articles:
+  - title: All vignettes
+    contents:
+      - run_biomee_with_LUH2
